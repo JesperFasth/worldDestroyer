@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  color: azure;
+}
+
+#container {
+  display: block;
+  padding: 0;
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+#left-element {
+  float: left;
+  display: block;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+#btn-panel {
+  margin: auto auto;
+  min-width: 150px;
+  max-width: 195px;
+}
+
+#right-element {
+  float: right;
+  display: block;
+}
+
+#btn {
+  background-color: #4d4d4d;
+  border: 1px solid #1f1f28;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+}
+
+#btn:hover {
+  cursor: pointer;
+}
+
+#name-input {
+  height: 35px;
+  font-size: 18px;
+  min-width: 110%;
+  color: white;
+  border: none;
+  background-color: #4d4d4d;
+  border-bottom: 1px solid white;
+  border-color: #000000;
+  transition: 0.2s;
+}
+
+#name-input:focus {
+  outline: none;
+  box-shadow: 0 2 15px #1f1f28;
+  transform: scaleX(1.05);
+  transition: 0.2s;
+}
+
+#vel-input {
+  height: 35px;
+  font-size: 18px;
+  min-width: 110%;
+  color: white;
+  border: none;
+  background-color: #4d4d4d;
+  border-bottom: 1px solid white;
+  border-color: #000000;
+  transition: 0.2s;
+}
+
+#vel-input:focus {
+  outline: none;
+  box-shadow: 0 2 15px #1f1f28;
+  transform: scaleX(1.05);
+  transition: 0.2s;
+}
